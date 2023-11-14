@@ -15,6 +15,7 @@ class ServiceConcerned extends Model
         'Full_Name',
         'Address',
         'Email',
+        'password',
         'Phone_Number',
     ];
     
