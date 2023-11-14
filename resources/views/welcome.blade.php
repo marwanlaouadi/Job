@@ -74,33 +74,38 @@
         <!-- Navbar End -->
 
 
- <!-- Carousel Start -->
- <div class="container-fluid p-0">
+<!-- Carousel Start -->
+<div class="container-fluid p-0" style="height: 100vh; display: flex; justify-content: center; align-items: center;">
     <div class="owl-carousel header-carousel position-relative">
         <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="img/carousel-1.jpg" alt="Image" style="max-width: 100%; height: auto;">
-            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+            <img class="img-fluid" src="img/abc-1.jpg" alt="Image" style="max-width: 100%; height: auto;">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, 0.5);">
                 <div class="container">
                     <div class="row justify-content-start">
-                        <div class="col-10 col-lg-8">
+                        <div class="col-12 col-lg-8">
                             <h3 class="display-3 text-white animated slideInDown mb-4">Trouvez l’emploi parfait que vous méritez</h3>
                             <p class="fs-5 fw-medium text-white mb-4 pb-2">Ne vous contentez pas de gagner votre vie. Faites la différence.</p>
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control bg-transparent py-3 ps-4 pe-5" placeholder="Rechercher un Emploi">
-                                <button class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" type="button">Rechercher un Emploi</button>
+                                <button class="btn btn-primary py-3 px-5 me-3 animated slideInLeft" type="button">Rechercher un Emploi</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="container-fluid p-0" style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+    <div class="owl-carousel header-carousel position-relative">
         <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="img/abc-1.jpg" alt="Image" style="max-width: 200%; height: auto;">
-            <div class="position-absolute top-0 start-0 w-200 h-200 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+            <img class="img-fluid" src="img/abc-1.jpg" alt="Image" style="max-width: 100%; height: auto;">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, 0.5);">
                 <div class="container">
                     <div class="row justify-content-start">
-                        <div class="col-10 col-lg-8">
-                            <h1 class="display-3 text-white animated slideInDown mb-4"> L’avenir n’est jamais fini</h1>
+                        <div class="col-12 col-lg-8">
+                            <h1 class="display-3 text-white animated slideInDown mb-4">L’avenir n’est jamais fini</h1>
                             <p class="fs-5 fw-medium text-white mb-4 pb-2">Nous croyons que l'inclusion à tous les niveaux est synonyme de meilleures affaires et d'un monde meilleur. Nous nous engageons à favoriser une culture qui célèbre la diversité de pensée dans l'esprit de créer une technologie révolutionnaire.</p>
                         </div>
                     </div>
