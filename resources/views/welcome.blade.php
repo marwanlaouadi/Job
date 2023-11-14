@@ -44,34 +44,38 @@
 
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
-                <h1 class="m-0 text-primary">JobEntry</h1>
+    <div class="container">
+        <div class="logo-container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center py-0 px-4 px-lg-5">
+                <img src="img/logo.png" alt="Logo de votre entreprise" style="max-width: 130px;">
             </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="about" class="nav-item nav-link">À PROPOS </a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">OFFRES D'EMPLOI</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="job-list.html" class="dropdown-item">Liste de Postes</a>
-                            <a href="job-detail.html" class="dropdown-item">Description du Poste</a>
-                            <a href="category.html" class="dropdown-item">Catégorie de Postes</a>
-                        </div>
+        </div>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="about" class="nav-item nav-link">À PROPOS</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">OFFRES D'EMPLOI</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="job-list.html" class="dropdown-item">Liste de Postes</a>
+                        <a href="job-detail.html" class="dropdown-item">Description du Poste</a>
+                        <a href="category.html" class="dropdown-item">Catégorie de Postes</a>
                     </div>
-                
-                    <a href="contact" class="nav-item nav-link">CONTACTEZ-NOUS</a>
                 </div>
-                <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">SE CONNECTER<i class="fa fa-arrow-right ms-3"></i></a>
+                <a href="contact" class="nav-item nav-link">CONTACTEZ-NOUS</a>
             </div>
-        </nav>
+            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">SE CONNECTER<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </div>
+</nav>
+
         <!-- Navbar End -->
 
 
  <!-- Carousel Start -->
-<div class="container-fluid p-0">
+ <div class="container-fluid p-0">
     <div class="owl-carousel header-carousel position-relative">
         <div class="owl-carousel-item position-relative">
             <img class="img-fluid" src="img/carousel-1.jpg" alt="Image" style="max-width: 100%; height: auto;">
@@ -91,8 +95,8 @@
             </div>
         </div>
         <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="img/abc-1.jpg" alt="Image" style="max-width: 100%; height: auto;">
-            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+            <img class="img-fluid" src="img/abc-1.jpg" alt="Image" style="max-width: 200%; height: auto;">
+            <div class="position-absolute top-0 start-0 w-200 h-200 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-10 col-lg-8">
@@ -105,6 +109,7 @@
         </div>
     </div>
 </div>
+
 <!-- Carousel End -->
 
 
