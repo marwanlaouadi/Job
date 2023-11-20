@@ -63,8 +63,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-
   <div class="container">
     <h2>Contactez-Nous</h2>
     <form id="contact-form" action="#" method="post">
