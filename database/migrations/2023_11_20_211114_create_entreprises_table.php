@@ -6,23 +6,24 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    
+    /**
+     * Run the migrations.
+     */
     public function up(): void
     {
-        Schema::create('forms', function (Blueprint $table) {
+        Schema::create('entreprises', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table->text('questions');
-            $table->char('cv_path', 255); 
+            $table->string('address', 255);
+            $table->string('email');
             $table->timestamps();
-
-            $table->foreign('user_id')->references('id')->on('user');
-            
         });
     }
-    
+
+    /**
+     * Reverse the migrations.
+     */
     public function down(): void
     {
-        Schema::dropIfExists('forms');
+        Schema::dropIfExists('entreprises');
     }
 };
