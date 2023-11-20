@@ -13,8 +13,7 @@ return new class extends Migration
     {
         Schema::create('interviews', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('jobs_id'); 
-            $table->unsignedBigInteger('job_seekers_id'); 
+            $table->unsignedBigInteger('jobs_id');
             $table->unsignedBigInteger('user_id'); 
             $table->enum('type', ['Online', 'In Person']); 
             $table->dateTime('interview_datetime'); 

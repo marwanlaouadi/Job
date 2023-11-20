@@ -16,12 +16,15 @@ return new class extends Migration
     {
         Schema::create('job_seekers', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('entreprises_id');
             $table->string('full_name', 100);
             $table->string('address', 255);
             $table->string('email');
             $table->string('password');
             $table->string('phone_number', 15);
             $table->timestamps();
+
+            $table->foreign('entreprises_id')->references('id')->on('entreprises');
 
         
         });
