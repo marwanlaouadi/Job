@@ -26,6 +26,23 @@ Route::get('/contact', function () {
     return view('contact_us');
 });
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Route::get('/admin/newjob', function () {
+    return view('admin.newjob');
+});
+Route::get('/admin/joblist', function () {
+    return view('admin.joblist');
+});
+=======
+Route::get('/connecte', function () {
+    return view('se_connecte');
+});
+
+>>>>>>> 0ca9a11f6f645942b01656b40d93010635fac2c9
+
+>>>>>>> 09d05ac32d748faa14c4f90f1818f2e713df6b40
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
