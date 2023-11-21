@@ -46,7 +46,7 @@
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
     <div class="container">
         <div class="logo-container">
-            <a href="index.html" class="navbar-brand d-flex align-items-center py-0 px-4 px-lg-5">
+            <a href="http://127.0.0.1:8000/" class="navbar-brand d-flex align-items-center py-0 px-4 px-lg-5">
                 <img src="img/logo.png" alt="Logo de votre entreprise" style="max-width: 130px;">
             </a>
         </div>
@@ -66,7 +66,7 @@
                 </div>
                 <a href="contact" class="nav-item nav-link">CONTACTEZ-NOUS</a>
             </div>
-            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">SE CONNECTER<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="connecte" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">SE CONNECTER<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </div>
 </nav>
