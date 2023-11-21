@@ -13,12 +13,15 @@ return new class extends Migration
     {
         Schema::create('service_concerneds', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('entreprises_id'); 
             $table->char('Name', 50);
             $table->char('Full_Name', 100);
             $table->char('Address', 255);
             $table->string('Email');
             $table->char('Phone_Number', 10);
             $table->timestamps();
+
+            $table->foreign('entreprises_id')->references('id')->on('entreprises');
         });
     }
     

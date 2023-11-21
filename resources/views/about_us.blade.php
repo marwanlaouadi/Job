@@ -1,126 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <style>
-        /* Styles pour la section "About Us" */
-        .about-section {
-            text-align: center;
-            padding: 80px;
-            background-color: #f2f2f2;
-        }
-        
-        .about-section h1 {
-            font-size: 40px;
-        }
+  <meta charset="UTF-8">
+  <title>À propos de nous</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #3c4b7b;
+      margin: 0;
+      padding: 0;
+      color: #fff; /* Modification de la couleur du texte pour une meilleure visibilité sur le fond */
+    }
 
-        /* Styles pour la section "Our Team" */
-        h2 {
-            text-align: center;
-            font-size: 30px;
-            margin-top: 30px;
-        }
+    .container {
+      width: 80%;
+      margin: 50px auto 0; /* Modification de la marge pour correspondre à la mise en page originale */
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #333;
+      line-height: 1.6;
+    }
 
-        .row {
-            display: flex;
-            justify-content: center;
-        }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
 
-        .column {
-            flex: 33.33%;
-            padding: 20px;
-        }
+    p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
 
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            transition: 0.3s;
-        }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
-        .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        }
+    ul li {
+      margin-bottom: 8px;
+    }
 
-        .container {
-            padding: 2px 16px;
-        }
+    .highlight {
+      font-weight: bold;
+      color: #3c4b7b;
+    }
 
-        .card img {
-            width: 100%;
-        }
-
-        h2 {
-            margin: 10px 0;
-        }
-
-        .title {
-            color: grey;
-        }
-
-        .button {
-            border: none;
-            outline: 0;
-            display: inline-block;
-            padding: 8px;
-            background-color: #000;
-            text-align: center;
-            cursor: pointer;
-            width: 100%;
-            color: white;
-        }
-
-        .button:hover {
-            background-color: #555;
-        }
-    </style>
+    .image img {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 20px; /* Ajout de la marge en bas pour l'image */
+      border-radius: 5px; /* Ajout de la bordure arrondie */
+    }
+  </style>
 </head>
+
 <body>
-
-<div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
-</div>
-
-<h2>Our Team</h2>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
+  <div class="container">
+    <h1>À propos de nous</h1>
+    <p>Condor Electroménager Algérie est une entreprise leader dans la fabrication et la distribution d'appareils électroménagers innovants.</p>
+    <p>Nous nous engageons à offrir des solutions de haute qualité pour simplifier la vie quotidienne de nos clients.</p>
+    <div class="image">
+      <img src="img/abou2.jpeg" alt="Image sur le côté gauche">
     </div>
-  </div>
+    <h2>Nos domaines d'activité comprennent :</h2>
+    <ul>
+      <li>Fabrication d'équipements électroniques et électroménagers</li>
+      <li>Informatique</li>
+      <li>Agro-alimentaire</li>
+      <li>Emballage</li>
+      <li>Matériaux de construction</li>
+      <li>Commerce international</li>
+    </ul>
 
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
+    <p>Nos produits intègrent une technologie de pointe avec un niveau de qualité exceptionnel. Notre engagement envers la satisfaction client et notre politique de prix compétitifs nous ont permis de gagner la confiance des Algériens.</p>
 
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="John">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
+    <p><span class="highlight">Condor Electroménager Algérie</span> vise à continuer d'innover et de proposer des produits de qualité pour répondre aux besoins changeants de nos clients et pour contribuer positivement au marché national et international.</p>
   </div>
-</div>
-
 </body>
+
 </html>
