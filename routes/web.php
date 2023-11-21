@@ -26,6 +26,12 @@ Route::get('/contact', function () {
     return view('contact_us');
 });
 
+Route::get('/admin/newjob', function () {
+    return view('admin.newjob');
+});
+Route::get('/admin/joblist', function () {
+    return view('admin.joblist');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
