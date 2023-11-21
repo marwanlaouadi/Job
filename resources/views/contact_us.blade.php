@@ -8,7 +8,7 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #0072ff, #00c6ff);
+      background: #3c4b7b ;
       /* Adjust the gradient colors and direction as needed */
       color: white;
     }
@@ -50,7 +50,7 @@
       padding: 10px;
       border: none;
       border-radius: 5px;
-      background-color: #00aaff;
+      background-color: #1138b2;
       color: white;
       cursor: pointer;
       transition: background-color 0.3s ease;
@@ -67,9 +67,9 @@
     <form class="contact-form" action="#" method="post">
       <input type="text" name="name" placeholder="nom" required>
       <input type="email" name="email" placeholder="email" required>
-      <textarea name="suject" placeholder=" subject" required></textarea>
-      <textarea name="message" placeholder=" message" required></textarea>
-      <input type="submit" value="envoyer">
+      <input type="email" name="telephone" placeholder="telephone" required>
+      <input type="email" name="email" placeholder="sujet" required>
+      <textarea name="message" placeholder=" message" required></textarea>      <input type="submit" value="envoyer">
     </form>
   </section>
 </body>
