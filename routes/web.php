@@ -26,11 +26,6 @@ Route::get('/contact', function () {
     return view('contact_us');
 });
 
-Route::get('/connecte', function () {
-    return view('se_connecte');
-});
-
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
